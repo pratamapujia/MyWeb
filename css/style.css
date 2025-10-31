@@ -23,3 +23,24 @@ body {
   width: 95%;
   max-width: 1200px;
 }
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+}
+
+.list-group-item {
+  background-color: transparent;
+  border: none;
+}
+
+.card.glass-effect {
+  transition: transform .2s;
+}
+
+.card.glass-effect:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 36px 0 rgba(31, 38, 135, 0.45);
+}
